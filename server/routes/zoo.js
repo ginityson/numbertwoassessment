@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var formatter = require('../modules/formatNumber');
 var pg = require('pg');
 var connectionString = 'postgres://localhost:5432/mu';
 
