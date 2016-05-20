@@ -1,0 +1,8 @@
+
+
+
+CREATE TABLE zoo (
+ id SERIAL PRIMARY KEY,
+ animal_type varchar(25),
+ animal_inventory varchar(25)
+);
